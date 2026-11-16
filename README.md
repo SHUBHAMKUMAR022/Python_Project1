@@ -36,11 +36,16 @@ Python 3, Pandas (CSV handling & data aggregation)[cite: 1], Matplotlib (Data vi
 
 ## How to Run
 
-1. Ensure Python 3 along with required libraries are installed:
-   ```bash
-   pip install pandas matplotlib
+   1. Ensure Python 3 along with required libraries are installed:
+      ```bash
+      pip install pandas matplotlib
+1.Place your orders.csv file in the same directory.
 
-   Data File Format
+2.Run the script from your console/terminal[cite: 1]:
+Bash
+   python sales_analyzer.py
+   
+Data File Format
 Each line in orders.csv: Order_ID,Product,Category,Quantity,Price
 
 Example: O1,Phone,Electronics,2,10000[cite: 1]
